@@ -1,0 +1,4 @@
+Bundle-Name: SegundoPortlet
+Bundle-SymbolicName: SegundoPortlet
+Bundle-Version: 1.0.0
+Export-Package: SegundoPortlet.constants

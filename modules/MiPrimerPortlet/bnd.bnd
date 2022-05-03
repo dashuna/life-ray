@@ -1,0 +1,4 @@
+Bundle-Name: MiPrimerPortlet
+Bundle-SymbolicName: MiPrimerPortlet
+Bundle-Version: 1.0.0
+Export-Package: MiPrimerPortlet.constants
