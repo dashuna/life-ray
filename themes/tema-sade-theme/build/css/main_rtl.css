@@ -36,6 +36,8 @@
  * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
 .loadingmask-message {
   background: transparent;
   border-width: 0;
@@ -10709,6 +10711,26 @@ you can use the generic selector below, but it's slower:
 
 .glyphicon-menu-up:before {
   content: "\e260";
+}
+
+.bi {
+  color: #222;
+  width: 20px;
+  height: 20px;
+}
+
+.bi img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  font-family: "Lato", sans-serif !important;
+}
+
+.contact dl dl,
+.contact dl dd {
+  display: inline-block;
 }
 
 /* endinject */
