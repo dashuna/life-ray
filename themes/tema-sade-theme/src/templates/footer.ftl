@@ -29,8 +29,7 @@
                 </li>
                 <li>
                     <a href="https://plus.google.com/116368118220144745881">
-                        <i class="fa-brands fa-google-plus-g"></i>
-                        <img src="${images_folder}/google-plus-g-brands.svg">
+                        <img src="${images_folder}/google-plus-g-brands.svg" width="16" height="16">
                     </a>
                 </li>
             </ul>
