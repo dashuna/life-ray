@@ -6,7 +6,6 @@
 
 <head>
 	<title>${html_title}</title>
-
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	<@liferay_util["include"] page=top_head_include />
@@ -69,7 +68,10 @@
 			/>
 		</p>
 	</footer> -->
-	<#include "${full_templates_path}/pie-pagina.ftl" />
+
+	<footer>
+		<#include "${full_templates_path}/footer.ftl" />
+	</footer>
 </div>
 
 <@liferay_util["include"] page=body_bottom_include />
