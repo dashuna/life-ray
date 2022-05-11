@@ -1,28 +1,21 @@
-.bi {
-    color: #222;
-    width: 20px;
-    height: 20px;
-    img {
-        width: 20px;
-        height: 20px;
-    }
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-footer {
-    font-family: 'Lato', sans-serif !important;
+.bi {
+    color: #222;
+    width: 20px;
+    height: 20px;
+    vertical-align: inherit;
 }
 
-.contact {
-    dl {
-        dt,
-        dd {
-            display: inline-block;
-        }
-    }
+.bi-img {
+    width: 21px;
+    height: 21px;
+}
+
+footer {
+    font-family: 'Lato', sans-serif !important;
 }

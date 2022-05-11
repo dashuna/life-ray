@@ -1,7 +1,7 @@
 <footer>
     <div class="d-flex flex-column flex-md-row">
-            <div class="w-100">
-            <img src="${images_folder}/logo-footer.png">
+            <div class="w-100 text-center">
+            <img src="${images_folder}/logo-footer.png" width="300px" height="150px">
         </div>
         
         <div class="w-100 d-none d-sm-flex flex-column justify-content-center align-items-center">
@@ -23,11 +23,15 @@
                     </a>
                 </span>
                 <span class="m-2">
-                    <a href="https://plus.google.com/116368118220144745881" class="bi">
-                        <img src="${images_folder}/google-plus-g-brands.svg">
+                    <a href="https://plus.google.com/116368118220144745881">
+                        <img src="${images_folder}/google-plus-g-brands.svg" class="bi bi-img">
                     </a>
                 </span>
             </p>
         </div>
     </div>
+
+    <#if has_navigation>
+        <#include "${full_templates_path}/footer_navigation.ftl" />
+    </#if>
 </footer>
