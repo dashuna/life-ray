@@ -15,24 +15,32 @@
 	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 	  </ol>
 	  <div class="carousel-inner w-100">
 	    <div class="carousel-item active">
-	      <img class="d-block" src="${pageContext.request.contextPath}/images/club-sade.jpg">
+	      <img class="d-block" src="${pageContext.request.contextPath}/images/soluciones_yservicios_web.jpg">
 	      	<div class="carousel-caption d-none d-md-block">
 		  		<h5>...</h5>
 		    	<p>...</p>
 	  		</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block" src="${pageContext.request.contextPath}/images/sade.jpg">
+	      <img class="d-block" src="${pageContext.request.contextPath}/images/enfoque_integral_web.jpg">
 	      <div class="carousel-caption d-none d-md-block">
 		    	<h5>...</h5>
 		    	<p>...</p>
 	  		</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block" src="${pageContext.request.contextPath}/images/soluciones.jpg">
+	      <img class="d-block" src="${pageContext.request.contextPath}/images/grupo-sade_web.jpg">
+	      <div class="carousel-caption d-none d-md-block">
+		    	<h5>...</h5>
+		    	<p>...</p>
+	  		</div>
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block" src="${pageContext.request.contextPath}/images/inday-banner.jpg">
 	      <div class="carousel-caption d-none d-md-block">
 		    	<h5>...</h5>
 		    	<p>...</p>
