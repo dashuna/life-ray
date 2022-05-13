@@ -11,6 +11,7 @@
 	<@liferay_util["include"] page=top_head_include />
 
 	<#--  <@liferay.js main="${javascript_folder}/main.js" />  -->
+	<script defer src="${javascript_folder}/navigation.js"></script>
 </head>
 
 <body class="${css_class}">
@@ -23,7 +24,7 @@
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		<div id="heading">
+		<#--  <div id="heading">
 			<div aria-level="1" class="site-title" role="heading">
 				<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="${site_logo_height}" src="${site_logo}" width="${site_logo_width}" />
@@ -39,7 +40,7 @@
 
 		<#if !is_signed_in>
 			<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
-		</#if>
+		</#if>  -->
 
 		<#if has_navigation && is_setup_complete>
 			<#include "${full_templates_path}/navigation.ftl" />
