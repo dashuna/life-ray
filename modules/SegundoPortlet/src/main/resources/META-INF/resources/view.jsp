@@ -25,7 +25,7 @@
 		    	<p>...</p>
 	  		</div>
 	    </div>
-	    <div class="carousel-item">
+	    <div class="carousel-item">  
 	      <img class="d-block" src="${pageContext.request.contextPath}/images/enfoque_integral_web.jpg">
 	      <div class="carousel-caption d-none d-md-block">
 		    	<h5>...</h5>
@@ -57,5 +57,3 @@
 	  </a>
 	</div>
 </section>
-<p>Hola mundo soy Raúl</p>
-<p>Añadido</p>

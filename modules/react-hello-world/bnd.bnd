@@ -1,0 +1,5 @@
+Bundle-Name: react-hello-world
+Bundle-SymbolicName: react.hello.world
+Bundle-Version: 1.0.0
+Export-Package: react.hello.world.constants
+Web-ContextPath: /react-hello-world

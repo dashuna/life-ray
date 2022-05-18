@@ -1,0 +1,9 @@
+{
+  "LiferayTheme": {
+    "appServerPath": "C:/Users/DaryaLynnykStorozhuk/Downloads/liferay-ce-portal-tomcat-7.4.3.21-ga21-20220418102345052/liferay-ce-portal-7.4.3.21-ga21/tomcat-9.0.56",
+    "deployPath": "C:/Users/DaryaLynnykStorozhuk/Downloads/liferay-ce-portal-tomcat-7.4.3.21-ga21-20220418102345052/liferay-ce-portal-7.4.3.21-ga21/deploy",
+    "deployed": true,
+    "deploymentStrategy": "LocalAppServer",
+    "url": "http://localhost:8080"
+  }
+}

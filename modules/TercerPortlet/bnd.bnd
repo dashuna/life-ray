@@ -1,0 +1,4 @@
+Bundle-Name: TercerPortlet
+Bundle-SymbolicName: TercerPortlet
+Bundle-Version: 1.0.0
+Export-Package: TercerPortlet.constants

@@ -1,0 +1,49 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.mb {
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.card {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    color: black;
+    /* position: relative; */
+}
+
+.cercania {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-linea:hover>h2 {
+    /* border-bottom: aqua 2px solid; */
+    /* padding-bottom: 5px; */
+}
+
+.texto-linea>hr {
+    width: 0;
+    height: 5px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.texto-linea:hover>hr {
+    width: 100%;
+}
+
+.texto-linea:hover>p {
+    display: block !important;
+}
