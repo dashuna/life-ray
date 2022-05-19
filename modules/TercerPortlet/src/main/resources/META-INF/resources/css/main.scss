@@ -16,7 +16,7 @@
     background-position: center;
     background-size: cover;
     height: 150px;
-    color: black;
+    color: white;
     /* position: relative; */
 }
 
@@ -28,15 +28,10 @@
     align-items: center;
 }
 
-.texto-linea:hover>h2 {
-    /* border-bottom: aqua 2px solid; */
-    /* padding-bottom: 5px; */
-}
-
 .texto-linea>hr {
     width: 0;
     height: 5px;
-    background-color: black;
+    background-color: white;
     transition: width 0.5s;
 }
 
@@ -46,4 +41,29 @@
 
 .texto-linea:hover>p {
     display: block !important;
+}
+
+.counter,
+.numero {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    width: 30%;
+}
+
+.clientes {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.consultores {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
