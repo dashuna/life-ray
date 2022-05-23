@@ -15,7 +15,7 @@
 .card {
     background-position: center;
     background-size: cover;
-    height: 150px;
+    height: 200px;
     color: white;
     /* position: relative; */
 }
@@ -48,19 +48,20 @@
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 80px;
+    font-size: 50px;
     width: 30%;
 }
 
 .clientes {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin: 0;
 }
 
-.consultores {
+.consultores,
+.proyectos {
     font-size: 50px;
     font-weight: bold;
     color: white;

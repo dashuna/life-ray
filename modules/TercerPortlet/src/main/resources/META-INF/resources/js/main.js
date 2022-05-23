@@ -15,16 +15,35 @@ function count() {
 }
 
 count();
+contarConsultores();
+contarProyectos();
 
-const numero = document.getElementById("numero");
-let cantidad = 0;
+function contarConsultores() {
+const numeroCons = document.getElementById('numeroCons');
+let cantidadCons = 0;
 
-let tiempo = setInterval(() => {
-    cantidad += 1;
-    numero.textContent = cantidad;
+let tiempoCons = setInterval(() => {
+    cantidadCons += 1;
+    numeroCons.textContent = cantidadCons;
 
-    if (cantidad === 100) {
-        clearInterval(tiempo);
+    if (cantidadCons === 100) {
+        clearInterval(tiempoCons);
     }
 
 }, 20);
+}
+
+function contarProyectos() {
+const numeroProy = document.getElementById('numeroProy');
+let cantidadProy = 0;
+
+let tiempoProy = setInterval(() => {
+    cantidadProy += 1;
+    numeroProy.textContent = cantidadProy;
+
+    if (cantidadProy === 200) {
+        clearInterval(tiempoProy);
+    }
+
+}, 20);
+}
