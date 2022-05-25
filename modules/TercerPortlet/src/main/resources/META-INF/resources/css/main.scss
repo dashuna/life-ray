@@ -68,3 +68,49 @@
     text-align: center;
     margin: 0;
 }
+.card-icon {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.enlace-icon img {
+    max-width: 35%;
+}
+
+.enlace-icon span {
+    color: silver;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px;
+    /* opacity: 1; */
+    /* line-height: 22px;
+    margin-left: 10px; */
+}
+
+.enlace-icon {
+    /* text-align: left;
+    vertical-align: top; */
+    text-decoration: none;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    padding: 50px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    z-index: -100;
+}

@@ -1,0 +1,1 @@
+create index IX_41DDCAE7 on miEspacio_Factura (uuid_[$COLUMN_LENGTH:75$]);

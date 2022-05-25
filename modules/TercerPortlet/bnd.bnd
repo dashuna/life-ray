@@ -2,3 +2,5 @@ Bundle-Name: TercerPortlet
 Bundle-SymbolicName: TercerPortlet
 Bundle-Version: 1.0.0
 Export-Package: TercerPortlet.constants
+
+Include-Resource: @commons-csv-1.3.jar

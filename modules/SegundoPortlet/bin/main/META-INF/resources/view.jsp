@@ -21,29 +21,29 @@
 	    <div class="carousel-item active">
 	      <img class="d-block" src="${pageContext.request.contextPath}/images/soluciones_yservicios_web.jpg">
 	      	<div class="carousel-caption d-none d-md-block">
-		  		<h5>...</h5>
-		    	<p>...</p>
+		  		<h5>SOMOS TU PARTNER EN TRANSFORMACIÓN DIGITAL</h5>
+                <p>SOMOS GRUPO SADE</p>
 	  		</div>
 	    </div>
 	    <div class="carousel-item">  
 	      <img class="d-block" src="${pageContext.request.contextPath}/images/enfoque_integral_web.jpg">
 	      <div class="carousel-caption d-none d-md-block">
-		    	<h5>...</h5>
-		    	<p>...</p>
+		    	<h5>ENFOQUE INTEGRAL</h5>
+                <p>Acompañamos a nuestros clientes a lo largo de todas las etapas de su transformación digital</p>
 	  		</div>
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block" src="${pageContext.request.contextPath}/images/grupo-sade_web.jpg">
 	      <div class="carousel-caption d-none d-md-block">
-		    	<h5>...</h5>
-		    	<p>...</p>
+		    	<h5>SOLUCIONES Y SERVICIOS</h5>
+                <p>Soluciones de software eficientes, rentables y sostenibles</p>
 	  		</div>
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block" src="${pageContext.request.contextPath}/images/inday-banner.jpg">
 	      <div class="carousel-caption d-none d-md-block">
-		    	<h5>...</h5>
-		    	<p>...</p>
+		    	<h5>INDAY APORTA EL VALOR Y LOS RESULTADOS NECESARIOS EN LOS PROCESOS DE REPORTING EN MOVILIDAD</h5>
+                <p></p>
 	  		</div>
 	    </div>
 	  </div>

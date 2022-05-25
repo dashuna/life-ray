@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="portlet.service.model.Factura">
+		<field name="uuid" type="String" />
+		<field name="facturaId" type="long" />
+		<field name="numero" type="String" />
+		<field name="cliente" type="String" />
+		<field name="importe" type="String" />
+	</model>
+</model-hints>

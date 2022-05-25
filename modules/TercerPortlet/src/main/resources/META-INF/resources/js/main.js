@@ -14,36 +14,36 @@ function count() {
     });
 }
 
-count();
-contarConsultores();
-contarProyectos();
-
 function contarConsultores() {
-const numeroCons = document.getElementById('numeroCons');
-let cantidadCons = 0;
+    const numeroCons = document.getElementById('numeroCons');
+    let cantidadCons = 0;
 
-let tiempoCons = setInterval(() => {
-    cantidadCons += 1;
-    numeroCons.textContent = cantidadCons;
+    let tiempoCons = setInterval(() => {
+        cantidadCons += 1;
+        numeroCons.textContent = cantidadCons;
 
-    if (cantidadCons === 100) {
-        clearInterval(tiempoCons);
-    }
+        if (cantidadCons === 100) {
+            clearInterval(tiempoCons);
+        }
 
-}, 20);
+    }, 20);
 }
 
 function contarProyectos() {
-const numeroProy = document.getElementById('numeroProy');
-let cantidadProy = 0;
+    const numeroProy = document.getElementById('numeroProy');
+    let cantidadProy = 0;
 
-let tiempoProy = setInterval(() => {
-    cantidadProy += 1;
-    numeroProy.textContent = cantidadProy;
+    let tiempoProy = setInterval(() => {
+        cantidadProy += 1;
+        numeroProy.textContent = cantidadProy;
 
-    if (cantidadProy === 200) {
-        clearInterval(tiempoProy);
-    }
+        if (cantidadProy === 200) {
+            clearInterval(tiempoProy);
+        }
 
-}, 20);
+    }, 20);
 }
+
+count();
+contarConsultores();
+contarProyectos();
