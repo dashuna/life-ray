@@ -3,12 +3,22 @@
 		<div class="logoDiv"><a href="/"><img src="https://www.grupo-sade.com/Content/Images/Logo97px.png"
 					alt=""></a></div>
 		<div class="menuDiv">
-			<ul>
+		<ul>
+			<#foreach nav_item in nav_items>
+				<li> 
+					<a aria-labelledby="layout_${nav_item.getLayoutId()}" href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem">
+						${nav_item.getName()}
+					</a>
+				</li>
+			</#foreach>
+		</ul>
+			<#--  <ul>
 				<li><a href="">Home</a></li>
 				<li><a href="">Portfolio</a> </li>
 				<li><a href="">Experiencia</a></li>
 				<li><a href="">Contacto</a></li>
-			</ul>
+			</ul>  -->
+			<#--  <p>${user_name}</p>  -->
 		</div>
 		<div id="botonMenu">
 
